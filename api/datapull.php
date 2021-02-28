@@ -1,4 +1,5 @@
 <?php
+    $conn = NULL;
     include 'dbconnection.php';
     
     $key = file_get_contents('key.txt');
